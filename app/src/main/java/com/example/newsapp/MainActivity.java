@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                                 list.add(data);
                             }
 
-                            mAdapter = new MyAdapter(list);
+                            mAdapter = new MyAdapter(list, MainActivity.this);
                             recyclerView.setAdapter(mAdapter);
 
 
